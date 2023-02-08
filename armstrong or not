@@ -11,12 +11,7 @@ public static void main (String[] args)
         int rem;
         int n=0;
         int orgnum=num;
-       while(orgnum!=0)
-       {
-              orgnum=orgnum/10;
-              n++;
-       }
-       orgnum=num;
+  
        while(orgnum!=0)
        {
            rem=orgnum%10;
